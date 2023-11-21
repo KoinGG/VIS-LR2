@@ -27,4 +27,4 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/vislr2:latest
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/rustcrud_vislr2:latest
